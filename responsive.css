@@ -1,0 +1,25 @@
+@media (max-width: 720px) {
+        imagem{
+            display:none;
+        }
+        
+        body{
+           grid-template-areas: 
+           "h h"
+           "m m"
+           ; 
+        }
+
+        main{
+            align-items: center;
+            margin:0px;
+        }    
+
+        main section{
+            align-items: center;
+        }
+
+        main section h1{
+            align-items: center;
+        }
+}
