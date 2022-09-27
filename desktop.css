@@ -14,16 +14,25 @@
 
 }
 
-body{
+@media (min-width: 721px){
+
+
+     /* DISPLAY  */
+
+.desktop{
     background-color: var(--branco);
     display:grid;
     grid-template-columns: 1fr 1fr ;    
     grid-template-rows: 13vh 87vh;
     grid-template-areas: 
     "h h "
-    "m s";
+    "m img";
 
     overflow: hidden;
+}
+
+.mobile{
+    display:none;
 }
 
 
@@ -159,7 +168,7 @@ main footer{
 
 
 imagem{
-    grid-area: s;
+    grid-area: img;
     background-image:url(img/image-hero-desktop.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -187,4 +196,5 @@ ol{
 }
 li:hover{
     cursor:pointer;
+}
 }
